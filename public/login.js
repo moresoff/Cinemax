@@ -31,7 +31,7 @@ class Login { /* creo la clase para capturar el usuario */
       console.log(loginBody);
       
       return fetch('/login', fetchOptions) /* */
-          .then(user =>  window.location.href = '/'); 
+          .then(user =>  window.location.href = '/peliculas'); 
   }
 }
 // Init app
